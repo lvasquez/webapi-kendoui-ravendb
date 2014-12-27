@@ -1,0 +1,95 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<link rel="stylesheet" href="http://cdn.kendostatic.com/2014.1.318/styles/kendo.common.min.css" />
+<link rel="stylesheet" href="http://cdn.kendostatic.com/2014.1.318/styles/kendo.bootstrap.min.css" />
+
+<script src="http://cdn.kendostatic.com/2014.1.318/js/jquery.min.js"></script>
+<script src="http://cdn.kendostatic.com/2014.1.318/js/kendo.all.min.js"></script>
+
+<br />
+<div id="grid"></div>
+
+<script>
+    var remoteDataSource = new kendo.data.DataSource({
+        pageSize: 20,
+         transport: {
+             read: {
+                 url: "http://localhost:1466/api/Customer/",
+                 dataType: "json"
+             },
+             create: {
+                 url: "http://localhost:1466/api/Customer/",
+                 dataType: "json",
+                 type: "POST"
+             },
+             update: {
+                 url: "http://localhost:1466/api/Customer/",
+                 dataType: "json",
+                 type: "PUT"
+             },
+             destroy: {
+                 url: "http://localhost:1466/api/Customer/",
+                 dataType: "json",
+                 type: "DELETE"
+             }
+         },
+         schema: {
+             model: {
+                 id: "Id",
+                 fields: {
+                     Id: { editable: false, type: "number" },
+                     name: { validation: { required: true} },
+                     address: { validation: { required: true} },
+                     phone: { validation: { required: true} },
+                     email: { validation: { required: true} },
+                     status: { type: "boolean" }
+                 }
+             }
+         }
+     });
+
+    $('#grid').kendoGrid({
+        dataSource: remoteDataSource,
+        toolbar: [{name:"create", text: "Create Customer"}],
+        editable: "popup",
+        scrollable: true,
+        sortable: true,
+        filterable: true,
+        pageable: {
+            refresh: true,
+            pageSizes: true,
+            buttonCount: 5
+        },
+        columns: [
+                {
+                    field: "Id",
+                    title: "Id"
+                },
+                {
+                    field: "name",
+                    title: "Name"
+                },
+                {
+                    field: "address",
+                    title: "Address"
+                },
+                {
+                    field: "phone",
+                    title: "Phone"
+                },
+                {
+                    field: "email",
+                    title: "E-mail"
+                },
+                {
+                    field: "status",
+                    title: "Status"
+                },
+                {
+                    command: ["edit", "destroy"],
+                    width: "200px"
+                }
+        ]
+    });
+</script>

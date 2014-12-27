@@ -1,0 +1,13 @@
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Repo\bin\Debug\WebAppNoSql.Repo.dll
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Repo\bin\Debug\WebAppNoSql.Repo.pdb
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Repo\obj\Debug\WebAppNoSql.Repo.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Repo\obj\Debug\WebAppNoSql.Repo.dll
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Repo\obj\Debug\WebAppNoSql.Repo.pdb
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Repo\bin\Debug\Raven.Abstractions.dll
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Repo\bin\Debug\Raven.Client.Lightweight.dll
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Repo\bin\Debug\Raven.Abstractions.pdb
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Repo\bin\Debug\Raven.Abstractions.xml
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Repo\bin\Debug\Raven.Client.Lightweight.pdb
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Repo\bin\Debug\Raven.Client.Lightweight.xml
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Repo\bin\Debug\WebAppNoSql.Domain.dll
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Repo\bin\Debug\WebAppNoSql.Domain.pdb

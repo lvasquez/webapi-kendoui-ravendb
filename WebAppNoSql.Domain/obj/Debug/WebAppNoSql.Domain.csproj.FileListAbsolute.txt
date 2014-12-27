@@ -1,0 +1,5 @@
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Domain\bin\Debug\WebAppNoSql.Domain.dll
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Domain\bin\Debug\WebAppNoSql.Domain.pdb
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Domain\obj\Debug\WebAppNoSql.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Domain\obj\Debug\WebAppNoSql.Domain.dll
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\ASP\WebAppNoSql.Web\WebAppNoSql.Domain\obj\Debug\WebAppNoSql.Domain.pdb
